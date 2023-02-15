@@ -7,7 +7,7 @@ mongoose.set('strictQuery', false);
 
 async function connect() {
     try {
-        await mongoose.connect(process.env.MOONGODB_URL);
+        await mongoose.connect("mongodb+srv://thaihaisportstore:sportstorenodejs@cluster0.5dzoxob.mongodb.net/chatapp?retryWrites=true&w=majority");
         console.log('Connect successfully...')
     } catch (error) {
         console.log('Connect failed...')
