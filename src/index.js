@@ -23,7 +23,7 @@ db.connect()
 // Your origin prop in cors({})
 app.use(cors({
     origin: [
-        "https://main--harmonious-tarsier-7abd94.netlify.app/", "http://localhost:3000/", "https://resplendent-sunflower-2693dc.netlify.app/"
+        "https://chat-app-demo-gamma.vercel.app/", "http://localhost:3000/"
     ],
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     credentials: true,
